@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Arrays from './components/Cars';
+import Cars from './Components/Car';
 
 
 function App() {
   return (
     <div className="App">
-     <Arrays/>
+     <Cars/>
     </div>
   );
 }

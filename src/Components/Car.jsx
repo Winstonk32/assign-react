@@ -1,29 +1,32 @@
 import React from 'react';
-import images from 'react'
+import Car1 from './Images/models.jpeg';
+import Car2 from './Images/bmw-m3.avif';
+import Car3 from './Images/audiiiii.avif';
 
 
-const Arrays = () => {
+
+const Car = () => {
   const carList = [
     {
       name: 'Tesla Model S',
-      color: 'Red',
+      color: 'blue',
       year: 2021,
       model: 'S',
-      images: '/tesla.jpeg',
+      image: Car1,
     },
     {
       name: 'BMW M3',
-      color: 'Black',
+      color: 'gray',
       year: 2019,
       model: 'M3',
-      image: 'bmw-m3.avif',
+      image: Car2,
     },
     {
       name: 'Audi A4',
       color: 'Blue',
       year: 2020,
       model: 'A4',
-      image: '',
+      image: Car3,
     },
   ];
 
@@ -60,4 +63,4 @@ const Arrays = () => {
   );
 };
 
-export default Arrays;
+export default Car;
